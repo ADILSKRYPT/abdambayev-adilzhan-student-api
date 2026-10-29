@@ -39,3 +39,81 @@ tmpfs           1.6G   12K  1.6G   1% /run/user/0
 --- Available disk space on / ---
 Available: 953G
 
+===== SYSTEM REPORT =====
+Student: Abdambayev Adilzhan
+Date and time: Fri Oct 30 04:50:53 +05 2026
+User: user
+OS: Ubuntu 26.04.1 LTS
+Kernel: 6.18.54.1-microsoft-standard-WSL2
+--- CPU ---
+CPU(s):                                  24
+Model name:                              Intel(R) Core(TM) Ultra 9 275HX
+--- Memory ---
+               total        used        free      shared  buff/cache   available
+Mem:            15Gi       3.6Gi        11Gi        24Mi       617Mi        11Gi
+Swap:          4.0Gi          0B       4.0Gi
+--- Disk usage ---
+Filesystem      Size  Used Avail Use% Mounted on
+none            7.7G     0  7.7G   0% /usr/lib/modules/6.18.54.1-microsoft-standard-WSL2
+/dev/sdb         97M   97M     0 100% /usr/lib/linux-tools/6.18.54.1-microsoft-standard-WSL2
+none            7.7G  4.0K  7.7G   1% /mnt/wsl
+drivers         954G  177G  778G  19% /usr/lib/wsl/drivers
+/dev/sdd       1007G  8.8G  947G   1% /
+none            7.7G  156K  7.7G   1% /mnt/wslg
+none            7.7G     0  7.7G   0% /usr/lib/wsl/lib
+rootfs          7.7G  3.4M  7.7G   1% /init
+none            7.7G  900K  7.7G   1% /run
+none            7.7G     0  7.7G   0% /run/lock
+none            7.7G     0  7.7G   0% /run/shm
+none            7.7G   80K  7.7G   1% /mnt/wslg/versions.txt
+none            7.7G   80K  7.7G   1% /mnt/wslg/doc
+C:\             954G  177G  778G  19% /mnt/c
+F:\             954G   97G  858G  11% /mnt/f
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           7.7G  4.8M  7.7G   1% /tmp
+none            1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+none            1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+tmpfs           1.6G   12K  1.6G   1% /run/user/1000
+tmpfs           1.6G   12K  1.6G   1% /run/user/0
+--- Available disk space on / ---
+947G
+
+===== SYSTEM REPORT =====
+Student: Abdambayev Adilzhan
+Date and time: Fri Oct 30 04:54:12 +05 2026
+User: user
+OS: Ubuntu 26.04.1 LTS
+Kernel: 6.18.54.1-microsoft-standard-WSL2
+--- CPU ---
+CPU(s):                                  24
+Model name:                              Intel(R) Core(TM) Ultra 9 275HX
+--- Memory ---
+               total        used        free      shared  buff/cache   available
+Mem:            15Gi       3.6Gi        11Gi        24Mi       660Mi        11Gi
+Swap:          4.0Gi          0B       4.0Gi
+--- Disk usage ---
+Filesystem      Size  Used Avail Use% Mounted on
+none            7.7G     0  7.7G   0% /usr/lib/modules/6.18.54.1-microsoft-standard-WSL2
+/dev/sdb         97M   97M     0 100% /usr/lib/linux-tools/6.18.54.1-microsoft-standard-WSL2
+none            7.7G  4.0K  7.7G   1% /mnt/wsl
+drivers         954G  177G  778G  19% /usr/lib/wsl/drivers
+/dev/sdd       1007G  8.8G  947G   1% /
+none            7.7G  156K  7.7G   1% /mnt/wslg
+none            7.7G     0  7.7G   0% /usr/lib/wsl/lib
+rootfs          7.7G  3.4M  7.7G   1% /init
+none            7.7G  896K  7.7G   1% /run
+none            7.7G     0  7.7G   0% /run/lock
+none            7.7G     0  7.7G   0% /run/shm
+none            7.7G   80K  7.7G   1% /mnt/wslg/versions.txt
+none            7.7G   80K  7.7G   1% /mnt/wslg/doc
+C:\             954G  177G  778G  19% /mnt/c
+F:\             954G   97G  858G  11% /mnt/f
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           7.7G  4.8M  7.7G   1% /tmp
+none            1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+none            1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+tmpfs           1.6G   12K  1.6G   1% /run/user/1000
+tmpfs           1.6G   12K  1.6G   1% /run/user/0
+--- Available disk space on / ---
+947G
+
