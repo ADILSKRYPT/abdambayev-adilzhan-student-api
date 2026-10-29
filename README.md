@@ -1,6 +1,6 @@
 # Abdambayev Adilzhan Student API
 
-Author: Abdambayev Adilzhan (ID 37144), group IT2-2309
+Documentation branch: Abdambayev Adilzhan describes the API
 Project status: stable version on main, documented in the documentation branch
 
 Spring Boot CRUD application for students (PostgreSQL, Docker, Jenkins).
