@@ -12,3 +12,6 @@ Author: Abdambayev Adilzhan
 - Implemented the UPDATE operation: PUT /api/students/{id}
 - GET and DELETE for a nonexistent student now return 404 Not Found
 - Added a unit test for the Student model
+
+## CRUD update by Abdambayev Adilzhan
+Improved one CRUD operation in the Student API.
