@@ -34,7 +34,7 @@ services:
       STUDENT_GROUP: "IT2-2309"
       APP_VERSION: "v1.0-37144"
     ports:
-      - "8080:8080"
+      - "8082:8080"
     networks:
       - abdambayev-adilzhan-net
 
