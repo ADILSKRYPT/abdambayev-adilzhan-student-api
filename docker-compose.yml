@@ -1,0 +1,45 @@
+name: abdambayev-adilzhan-student-api
+
+services:
+  db:
+    image: postgres:16
+    container_name: abdambayev-adilzhan-postgres
+    environment:
+      POSTGRES_DB: studentdb
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - abdambayev-adilzhan-pgdata:/var/lib/postgresql/data
+    networks:
+      - abdambayev-adilzhan-net
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d studentdb"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  app:
+    build: .
+    image: abdambayev-adilzhan-student-api:v1.0-37144
+    container_name: abdambayev-adilzhan-container
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DB_URL: jdbc:postgresql://db:5432/studentdb
+      DB_USER: ${POSTGRES_USER}
+      DB_PASSWORD: ${POSTGRES_PASSWORD}
+      STUDENT_NAME: "Abdambayev Adilzhan"
+      STUDENT_ID: "37144"
+      STUDENT_GROUP: "IT2-2309"
+      APP_VERSION: "v1.0-37144"
+    ports:
+      - "8080:8080"
+    networks:
+      - abdambayev-adilzhan-net
+
+volumes:
+  abdambayev-adilzhan-pgdata:
+
+networks:
+  abdambayev-adilzhan-net:
