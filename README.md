@@ -1,6 +1,6 @@
 # Abdambayev Adilzhan Student API
 
-Main branch: Abdambayev Adilzhan student project description
+Documentation branch: Abdambayev Adilzhan describes the API
 Project status: stable version on main, documented in the documentation branch
 
 Spring Boot CRUD application for students (PostgreSQL, Docker, Jenkins).
